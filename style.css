@@ -27,7 +27,7 @@ body {
 }
 
 footer {
-  background-color: var(--pink);
+  background-color: #ca3f6e;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -228,3 +228,4 @@ h1 {
   }
 
 }
+
