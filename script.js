@@ -24,6 +24,7 @@ function startGame() {
   gameBoard.innerHTML = '';
 
   var cardImages = images.concat(images);
+  cardImages.sort(() => Math.random() - 0.5);
             
   for (var i = 0; i < cardImages.length; i++) {
   var card = document.createElement('div');
@@ -133,4 +134,5 @@ function newGame() {
 
 startGame();   cardImages.sort(function() {
         return Math.random() - 0.5;
+
     });
