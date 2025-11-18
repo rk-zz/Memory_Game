@@ -26,6 +26,15 @@ body {
   border: 5px solid #fff;
 }
 
+footer {
+  background-color: var(--pink);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+
 h1 {
   color: #7ab8a8;
   font-size: 2.5em;
@@ -217,4 +226,5 @@ h1 {
   .card-front {
       font-size: 2.5em;
   }
+
 }
